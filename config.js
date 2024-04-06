@@ -6,12 +6,12 @@ if (fs.existsSync('.env')) require('dotenv').config({ path: __dirname+'/.env' })
 global.audio= "" ;  
 global.video= "" ;
 global.port =process.env.PORT
-global.appUrl=process.env.APP_URL || ""                       // put your app url here,
+global.appUrl=process.env.APP_URL || "https://github.com/Yeat0/Suhail-Md"                       // put your app url here,
 global.email ="samsamsun789@gmail.com"
 global.location="Lahore,Pakistan."
 
 
-global.mongodb= process.env.MONGODB_URI || ""
+global.mongodb= process.env.MONGODB_URI || "mongodb://mongo:arSltNFHKxibrcVwhwVgqCAZXlmqrAqh@viaduct.proxy.rlwy.net:37342"
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
